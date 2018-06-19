@@ -1,0 +1,11 @@
+{
+
+  "queryStringParameters": {
+    "email": "simone@themost.it"
+  },
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "eu-west-1:85f697da-857a-4d81-b032-268ef9dcdafc"
+    }
+  }
+}

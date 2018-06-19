@@ -1,0 +1,11 @@
+{
+  "body": "{\"startDate\":\"10-11-2015\",\"endDate\":\"23:00\",\"boatId\": \"boatId\"}",
+  "pathParameters": {
+    "id": "d45454e0-5391-11e8-bc39-8768c64bcdc0"
+  },
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "USER-SUB-1234"
+    }
+  }
+}

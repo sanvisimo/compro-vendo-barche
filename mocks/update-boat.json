@@ -1,0 +1,11 @@
+{
+  "body": "{\"name\":\"sanvi\"}",
+  "pathParameters": {
+    "id": "d4f07340-6668-11e8-a116-09aa275b942a"
+  },
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "d4f07340-6668-11e8-a116-09aa275b942a"
+    }
+  }
+}

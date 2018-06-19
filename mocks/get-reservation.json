@@ -1,0 +1,11 @@
+{
+  "pathParameters": {
+    "id": "16848c80-5398-11e8-adb4-f7a09f88cc65",
+    "boatId": "boatId"
+  },
+    "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "eu-west-1:85f697da-857a-4d81-b032-268ef9dcdafc"
+    }
+  }
+}

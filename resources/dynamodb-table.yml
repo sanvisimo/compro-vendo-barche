@@ -1,0 +1,52 @@
+Resources:
+  MedboatTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      # Generate a name based on the stage
+      TableName: ${self:custom.stage}-medboat
+      AttributeDefinitions:
+        - AttributeName: entityId
+          AttributeType: S
+        - AttributeName: relationId
+          AttributeType: S
+      KeySchema:
+        - AttributeName: entityId
+          KeyType: HASH
+        - AttributeName: relationId
+          KeyType: RANGE
+      GlobalSecondaryIndexes:
+        - IndexName: User-Type-Index
+          KeySchema:
+          - AttributeName: relationId
+            KeyType: HASH
+          - AttributeName: entityType
+            KeyType: RANGE
+          Projection:
+            ProjectionType: ALL
+          ProvisionedThroughput:
+            ReadCapacityUnits: 1
+            WriteCapacityUnits: 1
+        - IndexName: Typo-Index
+          KeySchema:
+          - AttributeName: entityType
+            KeyType: HASH
+          Projection:
+            ProjectionType: ALL
+          ProvisionedThroughput:
+            ReadCapacityUnits: 1
+            WriteCapacityUnits: 1
+        - IndexName: Boat-Type-Index
+          KeySchema:
+          - AttributeName: boatId
+            KeyType: HASH
+          - AttributeName: entityType
+            KeyType: RANGE
+          Projection:
+            ProjectionType: ALL
+          ProvisionedThroughput:
+            ReadCapacityUnits: 1
+            WriteCapacityUnits: 1
+      # Set the capacity based on the stage
+      ProvisionedThroughput:
+        ReadCapacityUnits: ${self:custom.tableThroughput}
+        WriteCapacityUnits: ${self:custom.tableThroughput}

@@ -1,0 +1,8 @@
+{
+  "body": "{\"start\":\"2018-05-13\",\"end\":\"2018-05-15\"}",
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "eu-west-1:85f697da-857a-4d81-b032-268ef9dcdafc"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "body": "{\"userId\":\"eu-west-1:85f697da-857a-4d81-b032-268ef9dcdafc\",\"userAdmin\":true,\"username\":\"Simone Sanvito\",\"color\":\"#ff00aa\",\"userId\":\"eu-west-1:85f697da-857a-4d81-b032-268ef9dcdafc\",\"boats\":{\"83bb4060-55c7-11e8-9165-9bda00cc7c0a\":{\"slots\":{\"0\":{\"totalWH\":1,\"numResWD\":[0,0,0,0],\"totalWD\":5,\"numResWE\":[0,0,0,0],\"numResWH\":[0,0,0,0],\"totalWE\":2},\"1\":{\"totalWH\":1,\"numResWD\":[0,0,0,0],\"totalWD\":7,\"numResWE\":[0,0,0,0],\"numResWH\":[0,0,0,0],\"totalWE\":3},\"2\":{\"totalWH\":1,\"numResWD\":[1,0,0,0],\"totalWD\":5,\"numResWE\":[0,0,0,0],\"numResWH\":[0,0,0,0],\"totalWE\":2},\"3\":{\"totalWH\":1,\"numResWD\":[0,0,0,0],\"totalWD\":5,\"numResWE\":[0,0,0,0],\"numResWH\":[0,0,0,0],\"totalWE\":2},\"4\":{\"totalWH\":1,\"numResWD\":[0,0,0,0],\"totalWD\":5,\"numResWE\":[0,0,0,0],\"numResWH\":[0,0,0,0],\"totalWE\":2},\"5\":{\"totalWH\":1,\"numResWD\":[0,0,0,0],\"totalWD\":5,\"numResWE\":[0,0,0,0],\"numResWH\":[0,0,0,0],\"totalWE\":2}},\"prenotazioni\":{\"totPrenotato\":0,\"totPrenotabile\":168,\"prenotabile\":50,\"prenotato\":1}}}}",
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "eu-west-1:85f697da-857a-4d81-b032-268ef9dcdafc"
+    }
+  }
+}
